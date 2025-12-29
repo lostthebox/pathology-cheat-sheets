@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrenal Pathology Cheat Sheet</title>
+    <style>
+        @page {
+            size: landscape;
+            margin: 0.5in;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 9pt;
+            line-height: 1.3;
+            margin: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #1e3a8a;
+            font-size: 20pt;
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            font-size: 10pt;
+            margin-bottom: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            page-break-inside: auto;
+        }
+        
+        th {
+            background-color: #1e3a8a;
+            color: white;
+            font-weight: bold;
+            padding: 8px;
+            border: 2px solid #1e3a8a;
+            text-align: left;
+            font-size: 9pt;
+        }
+        
+        td {
+            border: 1px solid #94a3b8;
+            padding: 6px;
+            vertical-align: top;
+            font-size: 8pt;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f1f5f9;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        
+        .entity-col {
+            font-weight: bold;
+            background-color: #e0e7ff !important;
+            width: 12%;
+        }
+        
+        .clinical-col { width: 15%; }
+        .gross-col { width: 13%; }
+        .histo-col { width: 15%; }
+        .ihc-col { width: 14%; }
+        .ddx-col { width: 13%; }
+        .pearls-col { width: 18%; }
+        
+        strong {
+            color: #dc2626;
+            font-weight: bold;
+        }
+        
+        .key-concepts {
+            background-color: #dbeafe;
+            border: 2px solid #1e3a8a;
+            padding: 15px;
+            margin-top: 20px;
+            page-break-inside: avoid;
+        }
+        
+        .key-concepts h2 {
+            color: #1e3a8a;
+            font-size: 14pt;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .key-concepts h3 {
+            color: #1e40af;
+            font-size: 11pt;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        
+        .key-concepts ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        
+        .key-concepts li {
+            margin-bottom: 3px;
+            font-size: 9pt;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #64748b;
+            font-size: 8pt;
+            margin-top: 20px;
+        }
+        
+        .abbreviations {
+            background-color: #fef3c7;
+            border: 2px solid #f59e0b;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 9pt;
+        }
+        
+        .abbreviations h3 {
+            color: #92400e;
+            font-size: 11pt;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        
+        .abbr-item {
+            margin-bottom: 3px;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>ADRENAL PATHOLOGY CHEAT SHEET</h1>
+    <div class="subtitle">ABP Endocrine Section: 5% Written, 6% Virtual Microscopy</div>
+    
+    <button class="no-print" onclick="window.print()" style="position: fixed; top: 10px; right: 10px; padding: 10px 20px; background-color: #1e3a8a; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 12pt; z-index: 1000;">Print/Save as PDF</button>
+    
+    <div class="abbreviations">
+        <h3>KEY ABBREVIATIONS</h3>
+        <div class="abbr-item"><strong>PPNAD</strong> = Primary Pigmented Nodular Adrenocortical Disease (micronodules &lt;1cm, pigmented, PRKAR1A/Carney complex)</div>
+        <div class="abbr-item"><strong>AIMAH</strong> = ACTH-Independent Macronodular Adrenal Hyperplasia (macronodules &gt;1cm, ARMC5 mutations)</div>
+        <div class="abbr-item"><strong>CAH</strong> = Congenital Adrenal Hyperplasia | <strong>INPC</strong> = International Neuroblastoma Pathology Classification | <strong>MKI</strong> = Mitosis-Karyorrhexis Index</div>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>ENTITY</th>
+                <th>CLINICAL</th>
+                <th>GROSS</th>
+                <th>HISTOLOGY</th>
+                <th>IHC/STUDIES</th>
+                <th>DDx</th>
+                <th>KEY PEARLS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="entity-col">ADRENAL CORTICAL ADENOMA (C)</td>
+                <td class="clinical-col">Most asymptomatic/incidental; Cushing (cortisol), Conn (aldosterone), virilization; sporadic or familial (MEN1, Carney, FAP)</td>
+                <td class="gross-col">Golden-yellow, well-circumscribed, typically &lt;5cm; no hemorrhage/necrosis</td>
+                <td class="histo-col">Uniform clear/eosinophilic cells; minimal pleomorphism; <strong>INTACT RETICULIN PATTERN</strong></td>
+                <td class="ihc-col">SF-1+, inhibin+, Melan-A+, synaptophysin+/-; Ki-67 &lt;5%</td>
+                <td class="ddx-col">ACC: Weiss ≥3, reticulin disrupted; Pheo: neuroendocrine+</td>
+                <td class="pearls-col">Reticulin = intact acinar architecture (vs disrupted in ACC); PRKAR1A/PRKACA/GNAS (Cushing), KCNJ5 (Conn)</td>
+            </tr>
+            <tr>
+                <td class="entity-col">ADRENAL CORTICAL CARCINOMA (AR)</td>
+                <td class="clinical-col">Age 40-50; 60% functional or mass effect; Li-Fraumeni, Beckwith-Wiedemann, MEN1</td>
+                <td class="gross-col">Large (&gt;6cm), yellow-tan; hemorrhage/necrosis; vascular invasion</td>
+                <td class="histo-col">Necrosis, high mitoses (&gt;5/50 HPF), atypia, pleomorphism, vascular invasion; <strong>RETICULIN DISRUPTION/PERICELLULAR</strong></td>
+                <td class="ihc-col">SF-1+, inhibin+, Melan-A+; Ki-67 &gt;10-20%; p53 overexpression</td>
+                <td class="ddx-col">Metastases: cortical markers (SF-1, inhibin); Adenoma: Weiss &lt;3</td>
+                <td class="pearls-col"><strong>WEISS ≥3 = CARCINOMA</strong>; reticulin algorithm; TP53, β-catenin mutations; 17p13 LOH, IGF-II overexpression</td>
+            </tr>
+            <tr>
+                <td class="entity-col">PHEOCHROMOCYTOMA (C)</td>
+                <td class="clinical-col">~50% hereditary (VHL, RET/MEN2, NF1, SDHx); paroxysmal HTN, diaphoresis, tachycardia; elevated catecholamines</td>
+                <td class="gross-col">Brown-red, vascular, &gt;3cm; tan-yellow if lipid degeneration</td>
+                <td class="histo-col"><strong>ZELLBALLEN (NESTS)</strong> with sustentacular cells; pleomorphism OK; hyaline globules</td>
+                <td class="ihc-col">Chromogranin+, synaptophysin+, GATA3+, <strong>TH+</strong>; S-100+ sustentacular cells; <strong>SDHB LOSS</strong> with SDHx</td>
+                <td class="ddx-col">ACC: SF-1+, no zellballen; Metastatic NET: CK+, TH-; NB: pediatric, rosettes</td>
+                <td class="pearls-col">Size, vascular invasion, necrosis, Ki-67 predict malignancy; <strong>SDHB IHC SCREENS SDHx</strong>; MEN2A = MTC + pheo + parathyroid</td>
+            </tr>
+            <tr>
+                <td class="entity-col">NEUROBLASTOMA (AR)</td>
+                <td class="clinical-col">Age &lt;4y (90% &lt;10y); abdominal mass; elevated catecholamines, VMA, HVA</td>
+                <td class="gross-col">Large, soft, variegated; hemorrhage/necrosis; calcifications</td>
+                <td class="histo-col">Small round blue cells; <strong>HOMER-WRIGHT ROSETTES</strong> (50%); neuropil background</td>
+                <td class="ihc-col">Synaptophysin+, chromogranin+, NSE+, TH+, NB84+; S-100+ in Schwann cells; <strong>MYCN AMPLIFICATION</strong></td>
+                <td class="ddx-col">Wilms: kidney-based, WT1+; Ewing: CD99+; Lymphoma: LCA+</td>
+                <td class="pearls-col"><strong>INPC CLASSIFICATION</strong>; MYCN amplification = poor prognosis; 1p del, 11q loss, 17q gain unfavorable</td>
+            </tr>
+            <tr>
+                <td class="entity-col">GANGLIONEUROBLASTOMA</td>
+                <td class="clinical-col">Age 2-4y (rare &gt;10y); abdominal mass; better prognosis than NB</td>
+                <td class="gross-col">Well-circumscribed, variegated; firm tan-white + hemorrhagic areas; calcifications</td>
+                <td class="histo-col">Mixed NB + GN (&gt;50% GN typically); <strong>3 INPC SUBTYPES</strong>: nodular classic, nodular atypical, intermixed</td>
+                <td class="ihc-col">NSE+, chromogranin+, synaptophysin+, neurofilament+; S-100+ spindle cells (abundant = better)</td>
+                <td class="ddx-col">NB: no ganglion cells; GN: no NB component</td>
+                <td class="pearls-col"><strong>NODULAR (classic/atypical) = UNFAVORABLE; INTERMIXED = FAVORABLE</strong></td>
+            </tr>
+            <tr>
+                <td class="entity-col">GANGLIONEUROMA</td>
+                <td class="clinical-col">Median age 5.5-10y; slight female predominance; most common sympathetic tumor in adults; asymptomatic mass</td>
+                <td class="gross-col">Large (1-15cm), well-circumscribed, firm, tan-yellow to gray-white</td>
+                <td class="histo-col">Mature ganglion cells + Schwann cells/fibrous stroma ONLY; NO neuroblasts, mitoses, necrosis</td>
+                <td class="ihc-col">S-100+; synaptophysin+ (ganglion cells); neurofilament+, Neu-N+</td>
+                <td class="ddx-col">Neurofibroma: lacks ganglion cells</td>
+                <td class="pearls-col">Fully differentiated; can arise de novo or from NB/GNB maturation; thorough sampling needed</td>
+            </tr>
+            <tr>
+                <td class="entity-col">ADRENAL MEDULLARY HYPERPLASIA</td>
+                <td class="clinical-col">MEN2A/2B (NOT VHL/NF1); paroxysmal symptoms; elevated catecholamines</td>
+                <td class="gross-col">Bilateral, increased weight; nodular or diffuse medullary expansion; <strong>NODULES &lt;1CM</strong></td>
+                <td class="histo-col">Diffuse medullary thickening extending into tail; hyaline globules in MEN2</td>
+                <td class="ihc-col">Chromogranin+, synaptophysin+; RET germline mutations</td>
+                <td class="ddx-col">Pheo: &gt;1cm only distinction</td>
+                <td class="pearls-col">Precursor lesion in MEN2; <strong>&lt;1CM = HYPERPLASIA, &gt;1CM = PHEO</strong></td>
+            </tr>
+            <tr>
+                <td class="entity-col">CONGENITAL ADRENAL HYPERPLASIA (CAH)</td>
+                <td class="clinical-col">21-hydroxylase deficiency (90%); salt-wasting, virilization in females; elevated 17-hydroxyprogesterone</td>
+                <td class="gross-col">Bilateral enlargement (cerebriform); lipid-depleted cortex</td>
+                <td class="histo-col">Diffuse cortical hyperplasia with compact cells; poor zonation; lipoid CAH: cholesterol clefts + granulomas</td>
+                <td class="ihc-col">Genetic testing for enzyme defects</td>
+                <td class="ddx-col">Adrenal hyperplasia: CAH is congenital; Adenoma: unilateral, nodular</td>
+                <td class="pearls-col">Adrenomedullary defect causes epinephrine deficiency; testicular adrenal rest tumors may develop</td>
+            </tr>
+            <tr>
+                <td class="entity-col">ADRENAL CORTICAL HYPERPLASIA (AR)</td>
+                <td class="clinical-col">Primary (ACTH-indep): AIMAH, PPNAD; Secondary (ACTH-dep); Cushing or Conn syndromes</td>
+                <td class="gross-col">Primary = nodular (&lt;1cm in PPNAD, &gt;1cm in AIMAH); Secondary = diffuse; bilateral</td>
+                <td class="histo-col">Primary: nodular clear/compact cells; <strong>PPNAD</strong> = pigmented nodules with atrophy between; <strong>AIMAH</strong> = mixed cells</td>
+                <td class="ihc-col">PPNAD: synaptophysin+, 17α-hydroxylase+; AIMAH: 3β-HSD dominant</td>
+                <td class="ddx-col">Adenoma: unilateral, &gt;1cm solitary mass; often difficult/impossible</td>
+                <td class="pearls-col">AIMAH (ACTH-Independent Macronodular): <strong>ARMC5</strong>; PPNAD (Primary Pigmented Nodular): <strong>PRKAR1A</strong> (Carney), lipofuscin pigment</td>
+            </tr>
+            <tr>
+                <td class="entity-col">MYELOLIPOMA (C)</td>
+                <td class="clinical-col">Asymptomatic incidental; rarely with Cushing/Conn if adenolipoma</td>
+                <td class="gross-col">Soft, tan-yellow and red-brown, well-circumscribed; variable size</td>
+                <td class="histo-col">Mature adipose + normal hematopoietic elements (all 3 lineages)</td>
+                <td class="ihc-col">None specific</td>
+                <td class="ddx-col">Lipoma: no marrow; Adenolipoma: associated adenoma</td>
+                <td class="pearls-col">May be extraadrenal (liver, retroperitoneum); occasionally with HTN</td>
+            </tr>
+            <tr>
+                <td class="entity-col">METASTASES (C)</td>
+                <td class="clinical-col">90% asymptomatic, multiorgan; lung, breast, kidney, melanoma most common; may cause Addison</td>
+                <td class="gross-col">Multifocal cortical nodules; solitary may mimic ACC; brown/black = melanoma</td>
+                <td class="histo-col">Depends on primary; lung/breast = poorly diff adenoCA; RCC may be clear cell</td>
+                <td class="ihc-col">Negative SF-1, inhibin, Melan-A; positive primary markers</td>
+                <td class="ddx-col">ACC: cortical markers+; Met RCC: RCC+, CD10+, PAX8+; HCC: HepPar1+, arginase+</td>
+                <td class="pearls-col">FNA useful; clinical history critical; lung and breast most common</td>
+            </tr>
+            <tr>
+                <td class="entity-col">PRIMARY MALIGNANT MELANOMA</td>
+                <td class="clinical-col">Middle-aged adults; aggressive, locally advanced; flank tenderness/mass</td>
+                <td class="gross-col">Unilateral, brown-black, 8-17cm; hemorrhage/necrosis</td>
+                <td class="histo-col">Polygonal/spindle cells, marked pleomorphism, prominent nucleoli, melanin pigment</td>
+                <td class="ihc-col">S-100+, Melan-A+, HMB-45+, MiTF+; CK-</td>
+                <td class="ddx-col">Pigmented ACC: SF-1+, lipofuscin; Met melanoma: history; Pigmented pheo: chromogranin+</td>
+                <td class="pearls-col">Must exclude metastasis (no prior melanocytic lesion); neural crest origin</td>
+            </tr>
+            <tr>
+                <td class="entity-col">ADRENAL CYSTS/PSEUDOCYSTS</td>
+                <td class="clinical-col">0.06-0.18% autopsy; asymptomatic or flank pain if large</td>
+                <td class="gross-col">Small to 30cm; unilocular; fibrous wall; serous/serosanguinous fluid</td>
+                <td class="histo-col"><strong>ENDOTHELIAL CYSTS (45%)</strong>: true epithelial lining; <strong>PSEUDOCYSTS (39%)</strong>: fibrotic wall WITHOUT lining; Parasitic (7%)</td>
+                <td class="ihc-col">ERG, Factor VIII, CD31+ for endothelial; keratin for epithelial</td>
+                <td class="ddx-col">Various based on cyst type</td>
+                <td class="pearls-col">Pseudocysts arise after hemorrhage; lack epithelial/endothelial lining</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="key-concepts">
+        <h2>KEY CONCEPTS</h2>
+        
+        <h3>CRITICAL IHC PANELS</h3>
+        <ul>
+            <li><strong>Adrenal Cortex:</strong> SF-1 (nuclear, specific!), inhibin-α, Melan-A (NOT specific to melanoma!), synaptophysin (variable)</li>
+            <li><strong>Pheochromocytoma:</strong> Chromogranin, synaptophysin, GATA3, tyrosine hydroxylase (specific), SDHB (loss = SDHx mutation)</li>
+            <li><strong>Neuroblastoma:</strong> Synaptophysin, chromogranin, NSE, NB84, TH; S-100 for Schwann cells</li>
+        </ul>
+        
+        <h3>RETICULIN PATTERNS (CRITICAL!)</h3>
+        <ul>
+            <li><strong>Adenoma:</strong> Intact reticulin framework maintaining normal acinar architecture</li>
+            <li><strong>Carcinoma:</strong> Complete disruption OR pericellular reticulin distribution</li>
+            <li><strong>Weiss Criteria:</strong> ≥3 = carcinoma (includes necrosis, mitoses, vascular invasion)</li>
+        </ul>
+        
+        <h3>NEUROBLASTIC TUMOR SPECTRUM</h3>
+        <ul>
+            <li><strong>Least → Most Differentiated:</strong> NB → GNB → GN</li>
+            <li><strong>GNB Subtypes (INPC):</strong> Nodular (classic/atypical) = UNFAVORABLE; Intermixed = FAVORABLE</li>
+            <li><strong>NB Poor Prognosis:</strong> MYCN amplification, 1p deletion, 11q loss, 17q gain, older age, high MKI (Mitosis-Karyorrhexis Index)</li>
+        </ul>
+        
+        <h3>SIZE DISTINCTIONS</h3>
+        <ul>
+            <li><strong>Adrenal Medullary Hyperplasia vs Pheo:</strong> &lt;1cm = hyperplasia, &gt;1cm = pheochromocytoma</li>
+            <li><strong>PPNAD vs AIMAH:</strong> PPNAD micronodules &lt;1cm; AIMAH macronodules &gt;1cm</li>
+            <li><strong>Adenoma vs Carcinoma:</strong> Size alone insufficient; use Weiss criteria + reticulin</li>
+        </ul>
+        
+        <h3>HEREDITARY SYNDROMES</h3>
+        <ul>
+            <li><strong>MEN2A:</strong> Medullary thyroid CA + Pheo + Parathyroid hyperplasia (RET mutations)</li>
+            <li><strong>Pheo Hereditary (~50%):</strong> VHL, RET/MEN2, NF1, SDHx (SDHB IHC loss screens SDHx)</li>
+            <li><strong>ACC:</strong> Li-Fraumeni (TP53), Beckwith-Wiedemann, MEN1, Lynch</li>
+            <li><strong>PPNAD:</strong> Carney complex (PRKAR1A)</li>
+        </ul>
+        
+        <h3>HIGH-YIELD MORPHOLOGY</h3>
+        <ul>
+            <li><strong>Zellballen pattern:</strong> Pheochromocytoma (nests with sustentacular cells)</li>
+            <li><strong>Homer-Wright rosettes:</strong> Neuroblastoma (50%)</li>
+            <li><strong>Neuropil:</strong> Neuroblastic tumors (fibrillary background)</li>
+            <li><strong>Pigment:</strong> PPNAD (lipofuscin), Melanoma (melanin), GN (neuromelanin)</li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        
+    </div>
+</body>
+</html>

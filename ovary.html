@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovarian Pathology Cheat Sheet</title>
+    <style>
+        @page {
+            size: landscape;
+            margin: 0.5in;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 8pt;
+            line-height: 1.2;
+            margin: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #7c2d12;
+            font-size: 18pt;
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            font-size: 10pt;
+            margin-bottom: 15px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            page-break-inside: auto;
+        }
+        
+        th {
+            background-color: #7c2d12;
+            color: white;
+            font-weight: bold;
+            padding: 6px;
+            border: 2px solid #7c2d12;
+            text-align: left;
+            font-size: 8pt;
+        }
+        
+        td {
+            border: 1px solid #94a3b8;
+            padding: 5px;
+            vertical-align: top;
+            font-size: 7.5pt;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #fef3c7;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        
+        .entity-col {
+            font-weight: bold;
+            background-color: #fed7aa !important;
+            width: 11%;
+        }
+        
+        .clinical-col { width: 14%; }
+        .gross-col { width: 13%; }
+        .histo-col { width: 16%; }
+        .ihc-col { width: 13%; }
+        .ddx-col { width: 13%; }
+        .pearls-col { width: 20%; }
+        
+        strong {
+            color: #dc2626;
+            font-weight: bold;
+        }
+        
+        .key-concepts {
+            background-color: #fef3c7;
+            border: 2px solid #7c2d12;
+            padding: 12px;
+            margin-top: 15px;
+            page-break-inside: avoid;
+        }
+        
+        .key-concepts h2 {
+            color: #7c2d12;
+            font-size: 13pt;
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        
+        .key-concepts h3 {
+            color: #92400e;
+            font-size: 10pt;
+            margin-top: 8px;
+            margin-bottom: 4px;
+        }
+        
+        .key-concepts ul {
+            margin: 4px 0;
+            padding-left: 18px;
+        }
+        
+        .key-concepts li {
+            margin-bottom: 2px;
+            font-size: 8pt;
+        }
+        
+        .abbreviations {
+            background-color: #dbeafe;
+            border: 2px solid #1e40af;
+            padding: 8px;
+            margin-bottom: 15px;
+            font-size: 8pt;
+        }
+        
+        .abbreviations h3 {
+            color: #1e40af;
+            font-size: 10pt;
+            margin-top: 0;
+            margin-bottom: 6px;
+        }
+        
+        .abbr-item {
+            margin-bottom: 2px;
+        }
+        
+        .section-header {
+            background-color: #92400e !important;
+            color: white !important;
+            font-weight: bold;
+            text-align: center;
+            padding: 8px;
+            font-size: 9pt;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>OVARIAN PATHOLOGY CHEAT SHEET</h1>
+    <div class="subtitle">ABP Gynecologic & Placenta Section: 8% Written, 7% Virtual Microscopy</div>
+    
+    <button class="no-print" onclick="window.print()" style="position: fixed; top: 10px; right: 10px; padding: 10px 20px; background-color: #7c2d12; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 11pt; z-index: 1000;">Print/Save as PDF</button>
+    
+    <div class="abbreviations">
+        <h3>KEY ABBREVIATIONS</h3>
+        <div class="abbr-item"><strong>AGCT</strong> = Adult Granulosa Cell Tumor | <strong>SLCT</strong> = Sertoli-Leydig Cell Tumor | <strong>SCTAT</strong> = Sex Cord Tumor with Annular Tubules | <strong>YST</strong> = Yolk Sac Tumor | <strong>AFP</strong> = Alpha-fetoprotein | <strong>HCG</strong> = Human chorionic gonadotropin | <strong>STIC</strong> = Serous Tubal Intraepithelial Carcinoma | <strong>ST</strong> = Syncytiotrophoblast | <strong>PJS</strong> = Peutz-Jeghers Syndrome | <strong>GTD</strong> = Gestational Trophoblastic Disease | <strong>PCOS</strong> = Polycystic Ovarian Syndrome | <strong>DLBCL</strong> = Diffuse Large B-Cell Lymphoma</div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="7" class="section-header">PHYSIOLOGIC CHANGES & METABOLIC CONDITIONS</th>
+            </tr>
+            <tr>
+                <th>ENTITY</th>
+                <th>CLINICAL</th>
+                <th>GROSS</th>
+                <th>HISTOLOGY</th>
+                <th>IHC/STUDIES</th>
+                <th>DDx</th>
+                <th>KEY PEARLS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="entity-col">FOLLICULAR CYST (C)</td>
+                <td class="clinical-col">Common; reproductive years; occasionally with McCune-Albright; usually asymptomatic</td>
+                <td class="gross-col">Unilateral; thin-walled, smooth, translucent cyst <8-10 cm; clear/serous fluid</td>
+                <td class="histo-col"><strong>Inner layer granulosa cells + outer layer theca interna cells</strong>; both often luteinized; may be compressed/absent if large</td>
+                <td class="ihc-col">Reticulin: highlights network around theca interna</td>
+                <td class="ddx-col">Serous cystadenoma: no theca layer; Corpus luteum cyst: hemorrhagic, luteinized</td>
+                <td class="pearls-col">Usually resolve within 2 months; rupture can cause acute abdomen</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">CORPUS LUTEUM CYST (C)</td>
+                <td class="clinical-col">Reproductive years; may cause pain if ruptured</td>
+                <td class="gross-col">Unilateral; >2 cm; thick-walled hemorrhagic cyst; smooth yellow lining; bloody fluid</td>
+                <td class="histo-col"><strong>Outer layer luteinized large vacuolated granulosa cells + inner layer smaller theca interna cells</strong>; thin connective tissue; hemorrhage common</td>
+                <td class="ihc-col">None</td>
+                <td class="ddx-col">Follicular cyst: thin wall, non-luteinized; Endometrioma: endometrial epithelium, hemosiderin macrophages</td>
+                <td class="pearls-col">Rupture can cause hemoperitoneum; usually resolves spontaneously; cyst >2 cm with smooth contour</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">HYPERREACTIO LUTEINALIS (AR)</td>
+                <td class="clinical-col">High HCG (pregnancy, GTD); ovulation induction; usually asymptomatic; may present with mass, pain, torsion</td>
+                <td class="gross-col"><strong>Multiple bilateral thin-walled cysts</strong>; serous/bloody fluid; massive ovarian enlargement</td>
+                <td class="histo-col"><strong>Numerous luteinized follicle cysts</strong> lined by enlarged luteinized theca interna cells, sometimes luteinized granulosa/stromal cells; stroma/theca may be edematous</td>
+                <td class="ihc-col">None</td>
+                <td class="ddx-col">Large solitary luteinized cyst: single cyst; Pregnancy luteoma: solid, no lipid</td>
+                <td class="pearls-col">Present in 10-45% with GTD; cysts regress after trophoblast removal</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">STROMAL HYPERPLASIA & HYPERTHECOSIS (AR)</td>
+                <td class="clinical-col"><strong>Hyperthecosis</strong>: 6th-9th decades; virilization, obesity, hypertension, glucose intolerance; endometrial hyperplasia/CA possible; <strong>Hyperplasia</strong>: 6th-7th decades; androgen hypersecretion, endometrial CA</td>
+                <td class="gross-col">Bilateral with/without enlargement; white/yellow tissue; nodular hyperthecosis may show yellow nodules</td>
+                <td class="histo-col"><strong>Hyperthecosis</strong>: luteinization of stromal cells not attached to follicles, singly/clusters; oval/round cells with eosinophilic/vacuolated cytoplasm; <strong>Hyperplasia</strong>: minimal collagen, diffuse/vaguely nodular proliferation small stromal cells; <strong>no luteinized cells</strong></td>
+                <td class="ihc-col">Oil red O: may highlight lipid in hyperthecosis</td>
+                <td class="ddx-col">Luteinized thecoma: unilateral nodule; Fibroma: abundant collagen, >3 cm</td>
+                <td class="pearls-col">May accompany HAIR-AN syndrome; often with massive edema</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">PREGNANCY LUTEOMA (AR)</td>
+                <td class="clinical-col">Pregnancy-related; most patients black, multiparous; peak 3rd-4th decades; may cause hirsutism/virilization; infant virilism possible</td>
+                <td class="gross-col">Multiple in 50%, bilateral in 33%; few mm to 20 cm; soft, well-circumscribed; yellow-brown/gray; hemorrhage</td>
+                <td class="histo-col"><strong>Solid proliferation uniform polygonal cells with abundant eosinophilic granular cytoplasm</strong>; round nuclei, may be hyperchromatic with moderate mitoses; sparse stroma divided by reticulin into clusters</td>
+                <td class="ihc-col">None</td>
+                <td class="ddx-col">Luteinized thecoma: unilateral, moderate-large lipid; Lipid-poor steroid cell: rarely bilateral</td>
+                <td class="pearls-col">Incidental finding; regresses within weeks postpartum; <strong>little/no lipid</strong></td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">POLYCYSTIC OVARIES (C)</td>
+                <td class="clinical-col">Stein-Leventhal syndrome; 3.5-7% females, 3rd decade; subcortical follicular cysts, anovulation, infertility, hirsutism, oligomenorrhea, obesity; increased LH:FSH</td>
+                <td class="gross-col">Both ovaries round, 2-5x normal; many small superficial cysts under smooth thick gray-white cortex; central stroma lacking corpora lutea</td>
+                <td class="histo-col"><strong>Superficial cortex thickened, hypocellular, collagenous</strong> with thick vessels; <strong>follicular cysts: inner nonluteinized granulosa + outer hyperplastic luteinized theca interna</strong>; corpora lutea absent</td>
+                <td class="ihc-col">None</td>
+                <td class="ddx-col">Pregnancy: luteinization of both layers; Stromal hyperthecosis: idiopathic entity</td>
+                <td class="pearls-col">Hyperandrogenemia; endometrium may show hyperplasia/CA; HAIR-AN may be associated</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table>
+        <thead>
+            <tr>
+                <th colspan="7" class="section-header">SURFACE EPITHELIAL-STROMAL TUMORS</th>
+            </tr>
+            <tr>
+                <th>ENTITY</th>
+                <th>CLINICAL</th>
+                <th>GROSS</th>
+                <th>HISTOLOGY</th>
+                <th>IHC/STUDIES</th>
+                <th>DDx</th>
+                <th>KEY PEARLS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="entity-col">SEROUS CYSTADENOMA (C)</td>
+                <td class="clinical-col">Common; peak 5th decade; 70% serous tumors; common in pregnancy</td>
+                <td class="gross-col">Bilateral 10%; thin-walled cyst, clear watery fluid; papillary have polypoid excrescences</td>
+                <td class="histo-col"><strong>Mimic fallopian tube</strong>; single layer cuboidal to columnar ciliated cells; no atypia; psammoma bodies rare</td>
+                <td class="ihc-col">None</td>
+                <td class="ddx-col">Mucinous: intracytoplasmic mucin, no cilia</td>
+                <td class="pearls-col">70% serous tumors; adenofibromas have fibrous stroma with glands/cysts</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">HIGH-GRADE SEROUS CA (C)</td>
+                <td class="clinical-col"><strong>Most common malignant ovarian tumor</strong>; age 40-70; CA-125 elevated; <strong>majority from fallopian tube fimbria</strong></td>
+                <td class="gross-col">Bilateral 65%; large hemorrhagic papillary excrescences on surface; solid friable necrotic tissue; adhesions</td>
+                <td class="histo-col">Stromal invasion with <strong>desmoplasia</strong>; thick papillae/solid sheets; <strong>pleomorphic nuclei, atypical mitoses, cellular budding, stratification</strong></td>
+                <td class="ihc-col"><strong>p53 strong+ or null</strong>; WT-1+, CA-125+, vimentin+, CK+, PAX8+</td>
+                <td class="ddx-col">Endometrioid: regular glands, squamous diff; Clear cell: hobnail cells, napsin A+</td>
+                <td class="pearls-col"><strong>Type II</strong>: high grade, de novo, p53 mutation 70%; fallopian tube primary if STIC present</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">MUCINOUS CYSTADENOMA (C)</td>
+                <td class="clinical-col">75-85% mucinous tumors; peak 4th-5th decades; most common epithelial in pregnancy</td>
+                <td class="gross-col">Bilateral 2-4%; large multiloculated cyst with mucin; smooth inner lining</td>
+                <td class="histo-col"><strong>Mimic endocervical/intestinal</strong>; columnar cells with apical mucin, basal nuclei (picket fence); goblet cells; fibrocollagenous stroma</td>
+                <td class="ihc-col">PAS+ (mucin); CK7+</td>
+                <td class="ddx-col">Serous: ciliated, no mucin; Heterologous SLCT: SLCT elements present</td>
+                <td class="pearls-col">Argyrophil and Paneth cells may be present</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">MUCINOUS CA (C)</td>
+                <td class="clinical-col"><5% mucinous tumors; peak 4th-7th decades; elevated CEA, CA 19-9</td>
+                <td class="gross-col">Bilateral <20%; cystic with papillae mixed with solid masses; hemorrhage/necrosis</td>
+                <td class="histo-col">Often spectrum; crowded glands/cysts/papillae/solid sheets; <strong>stromal invasion by single cells/small groups with desmoplasia</strong>; hyperchromatic nuclei, abundant mucin, signet rings</td>
+                <td class="ihc-col">Vimentin-; <strong>CK7+, CK20+, CEA+</strong></td>
+                <td class="ddx-col">Serous/endometrioid: CEA-; Krukenberg: bilateral, stromal goblet cells</td>
+                <td class="pearls-col"><strong>Type I</strong>; 40% 5-year survival; >95% mucinous CA GI origin (appendiceal)</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">ENDOMETRIOID CA (AR)</td>
+                <td class="clinical-col">Same risk as endometrial CA; often with ovarian/pelvic endometriosis</td>
+                <td class="gross-col">Variable; may be cystic with solid areas; bilateral in some</td>
+                <td class="histo-col">Stromal invasion, <strong>cribriforming</strong>; <strong>squamous differentiation often present</strong>; graded like endometrial CA</td>
+                <td class="ihc-col"><strong>Vimentin+</strong> (key); ER/PR+; WT-1-</td>
+                <td class="ddx-col">Serous: slitlike glands, budding, psammoma; Mucinous: luminal mucin, vimentin-, CEA+</td>
+                <td class="pearls-col"><strong>Type I</strong>; endometrioid + clear cell most common in endometriosis</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">CLEAR CELL CA (AR)</td>
+                <td class="clinical-col">Nulliparous; peak 5th decade; <strong>associated with endometriosis</strong></td>
+                <td class="gross-col">Often bilateral; cystic with solid areas or solid; hemorrhage/necrosis; adhesions; avg 15 cm</td>
+                <td class="histo-col">Papillary/tubulocystic/solid/mixed; <strong>clear cells with glycogen OR hobnail cells with hyperchromatic nuclei</strong>; papillae with hyalinized cores</td>
+                <td class="ihc-col"><strong>PAS+ (glycogen)</strong>; mucin-; napsin A+, HNF-1β+; ER/PR-, p53-</td>
+                <td class="ddx-col">Dysgerminoma: 2nd-3rd decade, lymphocytic stroma; YST: AFP+, Schiller-Duval</td>
+                <td class="pearls-col"><strong>Type I</strong>; hobnail cells = nuclei protrude into lumens</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">BRENNER TUMOR (AR)</td>
+                <td class="clinical-col">Benign common; peak 5th decade; borderline/malignant 7th decade; may have estrogenic/androgenic</td>
+                <td class="gross-col">Benign: small (<2 cm), lobulated, white-yellow; malignant: bilateral 15%, solid/cystic</td>
+                <td class="histo-col"><strong>Mimic urothelium</strong>; solid/cystic nests transitional cells with pale cytoplasm, <strong>oval grooved nuclei</strong>; cysts with mucinous epithelium; dense fibrotic stroma, calcifications</td>
+                <td class="ihc-col"><strong>CK 8/18+, CK20-</strong>; GATA3+, p63+, uroplakin+; WT1-</td>
+                <td class="ddx-col">Mucinous: transitional cells at periphery in Brenner</td>
+                <td class="pearls-col"><strong>Type I</strong>; occasionally with dermoid; malignant poor prognosis (35% 5-year)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="7" class="section-header">SEX CORD-STROMAL TUMORS</th>
+            </tr>
+            <tr>
+                <th>ENTITY</th>
+                <th>CLINICAL</th>
+                <th>GROSS</th>
+                <th>HISTOLOGY</th>
+                <th>IHC/STUDIES</th>
+                <th>DDx</th>
+                <th>KEY PEARLS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="entity-col">FIBROTHECOMA (AR)</td>
+                <td class="clinical-col">Thecoma: postmenopausal, 6th decade, estrogenic, endometrial hyperplasia/CA; Fibroma: 4th decade, nonfunctioning</td>
+                <td class="gross-col">Thecoma: unilateral, up to 10 cm, lobulated solid yellow; Fibroma: solid white, calcifications</td>
+                <td class="histo-col"><strong>Thecoma</strong>: sheets/bundles <strong>lipid-laden theca-like cells</strong>; round to spindled nuclei, mild atypia, infrequent mitoses, <10% granulosa cells; hyaline plaques; <strong>Fibroma</strong>: spindle cells storiform, no atypia, <4 mitoses/10 HPF</td>
+                <td class="ihc-col">Thecoma: inhibin+, reticulin around individual cells, oil red O+; Fibroma: inhibin focal+, vimentin+</td>
+                <td class="ddx-col">Steroid cell: fibromatous <10%, androgenic; Massive edema: intercellular edema</td>
+                <td class="pearls-col">Spectrum exists (fibrothecoma); benign unless pleomorphism and mitoses</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">ADULT GRANULOSA CELL TUMOR (AR)</td>
+                <td class="clinical-col">1-2% ovarian tumors; middle-aged/older; peak 5th decade; <strong>estrogen secretion</strong> (endometrial hyperplasia/CA <5%); abnormal bleeding</td>
+                <td class="gross-col">Usually unilateral, avg 12 cm; solid soft yellow-tan/gray with cystic areas, hemorrhage; sometimes blood-filled cysts</td>
+                <td class="histo-col">Granulosa + theca cells/fibroblasts; <strong>Call-Exner bodies</strong> (small round cystic spaces with eosinophilic material/pyknotic nuclei); scanty cytoplasm, <strong>pale angular to round grooved nuclei</strong>; frequent mitoses; patterns: microfollicular, trabecular, insular, macrofollicular, water silk, gyriform, diffuse</td>
+                <td class="ihc-col"><strong>Inhibin+, calretinin+, vimentin+</strong>, CD56+; EMA-, CK7-, desmin-; reticulin sparse around aggregates; <strong>FOXL2 C402G >90%</strong></td>
+                <td class="ddx-col">Carcinoma: bilateral >25%, psammoma (serous), EMA+; Thecoma/fibroma: AGCT patterns absent</td>
+                <td class="pearls-col">Call-Exner not always present; late recurrences (decades); 10-year survival 80-90% stage I</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">SERTOLI-LEYDIG CELL TUMOR (AR)</td>
+                <td class="clinical-col">Peak 2nd-3rd decades; <strong>androgenic manifestations</strong> (virilization); occasionally erythrocytosis</td>
+                <td class="gross-col">Unilateral, solid lobulated yellow-tan; well-diff: smaller; poorly diff: larger with hemorrhage/necrosis</td>
+                <td class="histo-col"><strong>Well-diff</strong>: hollow/solid tubules Sertoli cells + Leydig cells in stroma; <strong>Intermediate</strong>: immature Sertoli sheets/cords + Leydig clusters with eosinophilic cytoplasm; <strong>Poorly diff</strong>: sarcomatoid spindle cells; <strong>heterologous</strong>: cartilage, skeletal muscle; <strong>retiform</strong>: rete testis-like</td>
+                <td class="ihc-col"><strong>Inhibin+</strong>; vimentin+, calretinin+; EMA-; CK+</td>
+                <td class="ddx-col">Mucinous: lacks SLCT; Endometrioid: squamous diff; Carcinosarcoma: malignant mullerian</td>
+                <td class="pearls-col"><strong>DICER1 hotspot >60%</strong>; rarely with cervical embryonal rhabdomyosarcoma</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">STEROID CELL TUMORS (AR)</td>
+                <td class="clinical-col"><strong>Stromal luteoma</strong>: benign; postmenopausal, 5th decade; estrogenic, occasionally androgenic; <strong>Leydig cell</strong>: rare, benign; 5th decade; androgenic (hirsutism, virilization), occasionally estrogenic</td>
+                <td class="gross-col"><strong>Stromal luteoma</strong>: solitary, unilateral, ≥5 mm, <3 cm; gray-white/yellow; <strong>Leydig</strong>: unilateral, <5 cm, near hilum; red-brown to yellow/black; hemorrhage</td>
+                <td class="histo-col"><strong>Stromal luteoma</strong>: round nodules lutein cells in ovarian stroma; sparse/fibrotic stroma; eosinophilic cytoplasm, little lipid; small round nuclei, rare mitoses; <strong>Leydig</strong>: sheets/cords/clusters polyhedral cells, abundant eosinophilic granular cytoplasm, lipid vacuoles; <strong>Reinke crystalloids</strong> (pathognomonic); large hyperchromatic nuclei, nucleoli; anuclear eosinophilic zones; fibrinoid vessel degeneration</td>
+                <td class="ihc-col">Inhibin+; EM: rod-shaped Reinke crystals (hexagonal in cross section)</td>
+                <td class="ddx-col"><strong>Luteoma</strong>: Stromal hyperthecosis: nests <5 mm, multiple; <strong>Leydig</strong>: Steroid cell NOS: lacks Reinke</td>
+                <td class="pearls-col"><strong>Luteoma</strong>: stromal hyperthecosis in ipsi/contralateral ovary; <strong>Leydig</strong>: hilus cell tumor; hilum location</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">SEX CORD TUMOR WITH ANNULAR TUBULES (AR)</td>
+                <td class="clinical-col">Rare; childbearing age; 1/3 with PJS; estrogenic manifestations (menstrual irregularities, isosexual precocious puberty)</td>
+                <td class="gross-col">PJS: small, multifocal, bilateral, calcified; non-PJS: large, solid, yellow; cysts in both</td>
+                <td class="histo-col"><strong>Simple and complex annular tubules encircling hyaline</strong>; simple ring-shaped; complex intercommunicating rings; PJS: calcification; rings lined by epithelial cells with pale cytoplasm oriented toward center, peripheral nucleus</td>
+                <td class="ihc-col">Inhibin+ focally</td>
+                <td class="ddx-col">Gonadoblastoma: stromal + germ cell, not PJS, gonadal disorders</td>
+                <td class="pearls-col"><strong>STK11 germline (PJS)</strong>; no FOXL2; benign in PJS; malignant in 1/4 (lymphatics)</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">SCLEROSING STROMAL TUMOR (F)</td>
+                <td class="clinical-col">Rare, benign; first 3 decades, peak 2nd decade</td>
+                <td class="gross-col">Unilateral, solid, discrete, white, sharp; foci edema, cysts, yellow</td>
+                <td class="histo-col"><strong>Moderately cellular pseudolobules with numerous thin-walled vessels</strong>; fibroblasts and lipid-laden vacuolated cells separated by edematous tissue or dense collagen; sclerosis in nodules; rare mitoses</td>
+                <td class="ihc-col">Inhibin+; CD34+, CD31+</td>
+                <td class="ddx-col">Thecoma: no pseudolobular, vessels; Fibroma: no pseudolobules, lipid, vessels</td>
+                <td class="pearls-col">Benign; pseudolobular vascular pattern characteristic</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">GYNANDROBLASTOMA (F)</td>
+                <td class="clinical-col">Extremely rare; young adults, any age; androgenic or estrogenic</td>
+                <td class="gross-col">Solid, pale, <6 cm</td>
+                <td class="histo-col"><strong>Well-differentiated with granulosa and Sertoli components</strong>; >10% minor component required</td>
+                <td class="ihc-col">None</td>
+                <td class="ddx-col">Granulosa: Sertoli <10%; Sertoli/SLCT: granulosa <10%</td>
+                <td class="pearls-col">Extremely rare; almost always benign; <strong>~40% DICER1 p.E1705K</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="7" class="section-header">GERM CELL TUMORS</th>
+            </tr>
+            <tr>
+                <th>ENTITY</th>
+                <th>CLINICAL</th>
+                <th>GROSS</th>
+                <th>HISTOLOGY</th>
+                <th>IHC/STUDIES</th>
+                <th>DDx</th>
+                <th>KEY PEARLS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="entity-col">MATURE CYSTIC TERATOMA (C)</td>
+                <td class="clinical-col">Most common ovarian neoplasm <30y; reproductive age; often asymptomatic</td>
+                <td class="gross-col">Unilateral (bilateral 10-15%); cystic, thick tan-white wall; hair, sebum; <strong>Rokitansky nodule</strong> (solid with bone/teeth)</td>
+                <td class="histo-col"><strong>Mature tissues from all 3 germ layers</strong>; skin with adnexa, adipose, brain, cartilage, bone, respiratory, GI epithelium; no immature</td>
+                <td class="ihc-col">None</td>
+                <td class="ddx-col">Immature teratoma: immature neuroectoderm</td>
+                <td class="pearls-col">Dermoid cyst; malignant transformation rare (<2%), SCC in elderly; torsion risk</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">IMMATURE TERATOMA</td>
+                <td class="clinical-col">2nd most common malignant germ cell; children; peak 1st-2nd decades; rapidly growing</td>
+                <td class="gross-col">Unilateral; median 18 cm; capsular perforation 50%; solid but mixed cysts; variegated, hemorrhage/necrosis; may have bone/cartilage/hair</td>
+                <td class="histo-col">Haphazard <strong>immature tissues</strong> ectoderm/mesoderm/endoderm mixed with mature; <strong>immature neuroectoderm</strong> most common (rosettes, tubules, glia, neuroblasts); <strong>grading by amount immature per slide</strong></td>
+                <td class="ihc-col">None specific</td>
+                <td class="ddx-col">Mature teratoma: no immature; Carcinosarcoma: malignant mullerian; SLCT: Leydig/Sertoli</td>
+                <td class="pearls-col">Sample extensively; grade 0 (mature), 1 (minor immature), 2-3 (increasing); mature glial implants possible, good prognosis</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">DYSGERMINOMA (C)</td>
+                <td class="clinical-col"><strong>Most common malignant germ cell</strong>; young, peak 2nd-3rd decades; elevated LDH; occasionally HCG+; common in pregnancy; more with ovarian dysgenesis</td>
+                <td class="gross-col">Unilateral (bilateral in dysgenesis); median 15 cm; solid soft lobulated gray-white; hemorrhage/necrosis yellow/pink/tan</td>
+                <td class="histo-col"><strong>Uniform large round cells</strong> with abundant clear glycogen-rich cytoplasm in clusters/nests/cords; centrally located vesicular nuclei, clumped chromatin, prominent nucleoli; <strong>lymphocyte-infiltrated stroma</strong>; frequent mitoses; granulomas may be present; ST may be seen (not choriocarcinoma)</td>
+                <td class="ihc-col"><strong>PLAP+, Oct4+, Sall4+</strong>; c-kit (CD117)+; CK-; AFP-</td>
+                <td class="ddx-col">Embryonal CA: pleomorphic, CK+; YST: reticular, AFP+; Clear cell CA: hobnail, older</td>
+                <td class="pearls-col">Calcifications suggest gonadoblastoma; often combined with other germ cell; good prognosis with chemo</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">YOLK SAC TUMOR (AR)</td>
+                <td class="clinical-col">Rapidly growing malignant; children/young adults, peak 1st-2nd decades; <strong>elevated AFP</strong></td>
+                <td class="gross-col">Unilateral; median 15 cm; solid, soft, yellow-tan to gray; hemorrhage/necrosis/cystic change</td>
+                <td class="histo-col">Multiple patterns: <strong>reticular/microcystic</strong> most common (lacelike network), solid, <strong>Schiller-Duval bodies</strong> (papillae with central vessel = pathognomonic); endodermal sinus-like spaces; PAS+ <strong>hyaline globules</strong> cytoplasm/extracellular</td>
+                <td class="ihc-col"><strong>AFP+</strong> (diagnostic); CK+, glypican-3+, Sall4+</td>
+                <td class="ddx-col">Clear cell CA: hobnail, older, AFP-; Dysgerminoma: lymphocytic, AFP-; Embryonal: CD30+, Oct4+</td>
+                <td class="pearls-col">Highly malignant; spreads peritoneum/retroperitoneal LN; may with endometrioid/mucinous or gonadal dysgenesis</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">EMBRYONAL CA (AR)</td>
+                <td class="clinical-col">Rare; children/young adults, peak 1st decade; <strong>HCG elevated</strong>; isosexual precocious puberty, bleeding</td>
+                <td class="gross-col">Unilateral; median 17 cm; solid, smooth; gray-white/yellow with hemorrhage/necrosis</td>
+                <td class="histo-col">Solid/papillary/glandular; sheets/nests <strong>large ovoid/polygonal cells forming ST giant cells</strong>; abundant granular eosinophilic cytoplasm; centrally located pleomorphic vesicular nuclei, irregular membranes, prominent nucleoli; cleftlike spaces; frequent abnormal mitoses</td>
+                <td class="ihc-col"><strong>CK+, CD30+, Oct4+, Sall4+</strong>; PLAP+ in STs; glypican-3+; EMA-</td>
+                <td class="ddx-col">Dysgerminoma: uniform, lymphocytes; YST: smaller clear cells, reticular</td>
+                <td class="pearls-col">Usually combined with other germ cell (especially YST); isochromosome 12p; poor prognosis</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">CHORIOCARCINOMA (AR)</td>
+                <td class="clinical-col">Rare; children/young adults; <strong>HCG highly elevated</strong>; isosexual precocious puberty, bleeding</td>
+                <td class="gross-col">Unilateral; solid, soft, hemorrhagic; often small (early HCG detection)</td>
+                <td class="histo-col"><strong>Biphasic: cytotrophoblast (mononuclear, clear cytoplasm) + syncytiotrophoblast (multinucleated giant cells)</strong>; hemorrhage and necrosis prominent; no chorionic villi</td>
+                <td class="ihc-col"><strong>HCG+</strong> (ST); HPL+; CK+; inhibin+ (ST)</td>
+                <td class="ddx-col">Embryonal CA: isolated ST; Dysgerminoma: isolated ST; YST: isolated ST, AFP+</td>
+                <td class="pearls-col">Highly malignant; spreads locally, intra-abdominally, lymphatics/blood; pure ovarian rare (usually mixed)</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">GONADOBLASTOMA (F)</td>
+                <td class="clinical-col">Mixed germ cell + sex cord-stromal; children/young adults; <strong>almost always phenotypic women with gonadal disorder</strong> (46XY pure/mixed gonadal dysgenesis); often 45X or 46XY; may present with virilization</td>
+                <td class="gross-col">Solid, lobulated, calcifications or totally calcified; brown/yellow/gray; microscopic to 8 cm; <strong>frequently bilateral</strong>; large tumors show dysgerminoma overgrowth; gonad uncertain (abdominal/inguinal testis, gonadal streak)</td>
+                <td class="histo-col"><strong>Germ cells or sex cord cells in nests</strong> surrounding amorphous eosinophilic material (hyaline); large germ cells like dysgerminoma/seminoma with vesicular nuclei, granular chromatin, nucleoli, mitoses; <strong>sex cord cells like immature Sertoli or granulosa</strong>: small, uniform, round/elongated, scanty cytoplasm, pale nuclei, mitotically inactive; sex cord encircle germ cells; lutein/Leydig-like in stroma; may show calcification, hyalinization, or dysgerminoma overgrowth</td>
+                <td class="ihc-col">Germ cells: Oct4+, Sall4+, PLAP+, CD117+; Sex cord: inhibin+, calretinin+</td>
+                <td class="ddx-col">Dysgerminoma: in dysgenesis with Y, gonadoblastoma possible; small calcification/nest suggests; SCTAT: annular tubules, no germ cells, PJS</td>
+                <td class="pearls-col"><strong>Y chromosome, GBY locus, TSPY1 gene</strong>; malignant germ cell in contralateral ovary possible; calcifications suggest in dysgerminoma</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="7" class="section-header">MISCELLANEOUS</th>
+            </tr>
+            <tr>
+                <th>ENTITY</th>
+                <th>CLINICAL</th>
+                <th>GROSS</th>
+                <th>HISTOLOGY</th>
+                <th>IHC/STUDIES</th>
+                <th>DDx</th>
+                <th>KEY PEARLS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="entity-col">ENDOSALPINGIOSIS (C)</td>
+                <td class="clinical-col">Benign; reproductive age, mean 30y; pelvic peritoneum (uterus, tubes, ovaries, omentum); incidental; associated with atypical proliferative serous</td>
+                <td class="gross-col">Multiple small fluid-filled cysts <5 mm on peritoneum</td>
+                <td class="histo-col">Glands varying size/shapes lined by <strong>single layer benign tubal-type epithelium</strong>; loose/dense connective stroma; psammoma bodies lumina/stroma</td>
+                <td class="ihc-col">None</td>
+                <td class="ddx-col">Extraovarian serous cystadenoma: solitary mass, significant size</td>
+                <td class="pearls-col">Atypical has stratification/atypia (DDx peritoneal serous borderline); may be serous tumor precursor</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">ENDOMETRIOMA (C)</td>
+                <td class="clinical-col">Common; reproductive age; pelvic pain, dysmenorrhea, infertility; with pelvic endometriosis</td>
+                <td class="gross-col">Cystic ovary filled with blood ("chocolate cyst"); glistening external surface; often bilateral; adhesions</td>
+                <td class="histo-col">Cyst lined by <strong>endometrial epithelium (cuboidal) with endometrial stroma</strong>; <strong>hemosiderin-laden macrophages</strong> wall/lumen; adjacent ovarian stroma</td>
+                <td class="ihc-col">CD10+ (endometrial stroma)</td>
+                <td class="ddx-col">Hemorrhagic corpus luteum: luteinized cells; Teratoma: skin, other tissues</td>
+                <td class="pearls-col">Risk factor clear cell and endometrioid CA; may undergo malignant transformation (~0.5%)</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">CARCINOSARCOMA (MMMT)</td>
+                <td class="clinical-col">Rare; postmenopausal, peak 6th decade; poor prognosis</td>
+                <td class="gross-col">Large (15-20 cm); unilateral; solid or partly cystic; necrosis/hemorrhage; yellow-brown; bone/cartilage palpable</td>
+                <td class="histo-col"><strong>Biphasic: malignant epithelial (CA) + malignant mesenchymal (sarcoma)</strong>; epithelial usually high-grade serous (may be endometrioid, clear cell, mucinous, SCC); mesenchymal homologous (stromal sarcoma, fibrosarcoma, leiomyosarcoma) or heterologous (chondrosarcoma most common, rhabdomyosarcoma, osteosarcoma)</td>
+                <td class="ihc-col">Reticulin highlights undifferentiated CA; CK/EMA+ epithelium; vimentin+ sarcoma (CA may be focally+)</td>
+                <td class="ddx-col">Immature teratoma: younger, no malignant mullerian, embryonic cartilage; SLCT: Leydig, inhibin+; Adenosarcoma: benign epithelium</td>
+                <td class="pearls-col"><strong>Type II</strong>; spreads beyond ovary >50% at surgery; epithelial or sarcoma metastasize early; poor prognosis, rapid</td>
+            </tr>
+
+            <tr>
+                <td class="entity-col">LYMPHOMAS/LEUKEMIA (AR)</td>
+                <td class="clinical-col">Rare; secondary more common than primary; bilateral 25-50% if ovary involved; <strong>Burkitt</strong>: children/young adults; <strong>DLBCL</strong> most common in adults</td>
+                <td class="gross-col">Bilateral in many; solid, fleshy, white-tan to gray; may be large; fish-flesh</td>
+                <td class="histo-col">Diffuse infiltrate malignant lymphoid cells replacing ovary; <strong>Burkitt</strong>: monotonous medium cells, high mitoses, starry-sky; <strong>DLBCL</strong>: large cells, vesicular nuclei, prominent nucleoli</td>
+                <td class="ihc-col"><strong>Burkitt</strong>: CD20+, CD10+, BCL6+, BCL2-, Ki-67 ~100%, MYC rearrangement; <strong>DLBCL</strong>: CD20+, CD79a+, variable CD10/BCL6/MUM1</td>
+                <td class="ddx-col">Dysgerminoma: germ cell markers+, lymphoid-; Small cell CA: epithelial+, lymphoid-; Granulosa: inhibin+, lymphoid-</td>
+                <td class="pearls-col">Most ovarian lymphomas secondary; primary = disease confined to ovary at diagnosis; evaluate for systemic; flow cytometry helpful</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="key-concepts">
+        <h2>KEY CONCEPTS</h2>
+        
+        <h3>TYPE I VS TYPE II OVARIAN CARCINOMAS</h3>
+        <ul>
+            <li><strong>Type I (Low-Grade):</strong> Stepwise progression cystadenoma to borderline to carcinoma; stage 1 at presentation; slow, indolent; K-ras/BRAF mutations 65%, TP53 8%; includes low-grade serous, mucinous, endometrioid, clear cell, Brenner</li>
+            <li><strong>Type II (High-Grade):</strong> De novo; high stage at presentation; rapidly growing, aggressive; p53 mutation 70%, K-ras/BRAF rare 1%; includes high-grade serous, carcinosarcoma</li>
+        </ul>
+        
+        <h3>CRITICAL IHC PANELS</h3>
+        <ul>
+            <li><strong>High-Grade Serous:</strong> p53 strong+ or null (diagnostic), WT-1+, CA-125+, vimentin+, PAX8+</li>
+            <li><strong>Mucinous:</strong> CK7+, CK20+, CEA+, vimentin-</li>
+            <li><strong>Endometrioid:</strong> Vimentin+ (KEY), ER/PR+, WT-1-</li>
+            <li><strong>Clear Cell:</strong> Napsin A+, PAS+ (glycogen), HNF-1β+, ER/PR-, p53-</li>
+            <li><strong>Brenner:</strong> CK8/18+, CK20-, GATA3+, p63+, uroplakin+, WT1-</li>
+            <li><strong>AGCT:</strong> Inhibin+, calretinin+, CD56+, EMA-, CK7-; FOXL2 C402G >90%</li>
+            <li><strong>SLCT:</strong> Inhibin+, calretinin+, vimentin+; DICER1 >60%</li>
+            <li><strong>SCTAT:</strong> Inhibin+ focally; STK11 (PJS)</li>
+            <li><strong>Gynandroblastoma:</strong> None contributory; DICER1 p.E1705K ~40%</li>
+            <li><strong>Dysgerminoma:</strong> PLAP+, Oct4+, Sall4+, c-kit+; CK-, AFP-</li>
+            <li><strong>YST:</strong> AFP+ (diagnostic), glypican-3+, Sall4+, CK+</li>
+            <li><strong>Embryonal:</strong> CD30+, Oct4+, Sall4+, CK+, PLAP+; EMA-</li>
+            <li><strong>Choriocarcinoma:</strong> HCG+, HPL+, inhibin+ (ST)</li>
+            <li><strong>Gonadoblastoma:</strong> Germ (Oct4+, Sall4+, PLAP+, CD117+), Sex cord (inhibin+, calretinin+); Y/TSPY1</li>
+        </ul>
+        
+        <h3>TUMOR MARKERS</h3>
+        <ul>
+            <li><strong>CA-125:</strong> High-grade serous (not specific)</li>
+            <li><strong>CEA, CA 19-9:</strong> Mucinous</li>
+            <li><strong>AFP:</strong> YST (diagnostic), rarely embryonal</li>
+            <li><strong>HCG:</strong> Choriocarcinoma (very high), embryonal, dysgerminoma (if ST)</li>
+            <li><strong>LDH:</strong> Dysgerminoma</li>
+            <li><strong>Inhibin:</strong> Sex cord-stromal, some mucinous</li>
+        </ul>
+        
+        <h3>SEROUS CARCINOMA ORIGIN</h3>
+        <ul>
+            <li>Majority high-grade serous from <strong>fallopian tube fimbria</strong>, not ovary</li>
+            <li><strong>STIC</strong> in tube = fallopian tube primary</li>
+            <li>Surface serous have large hemorrhagic papillary excrescences on ovarian surface</li>
+        </ul>
+        
+        <h3>CHARACTERISTIC FEATURES</h3>
+        <ul>
+            <li><strong>Call-Exner bodies:</strong> AGCT (small round cystic spaces with eosinophilic material/pyknotic nuclei)</li>
+            <li><strong>Grooved nuclei:</strong> AGCT, Brenner</li>
+            <li><strong>Schiller-Duval bodies:</strong> YST (pathognomonic; papillae with central vessel)</li>
+            <li><strong>Hobnail cells:</strong> Clear cell (nuclei protrude into lumens)</li>
+            <li><strong>Psammoma bodies:</strong> Serous, endosalpingiosis</li>
+            <li><strong>Rokitansky nodule:</strong> Mature cystic teratoma (solid with bone/teeth)</li>
+            <li><strong>Picket fence:</strong> Mucinous (columnar, apical mucin, basal nuclei)</li>
+            <li><strong>Lymphocytic stroma:</strong> Dysgerminoma</li>
+            <li><strong>Annular tubules:</strong> SCTAT (encircling hyaline)</li>
+            <li><strong>Reinke crystals:</strong> Leydig cell (eosinophilic crystalloids)</li>
+            <li><strong>Pseudolobules with vessels:</strong> Sclerosing stromal</li>
+        </ul>
+        
+        <h3>ENDOMETRIOSIS-ASSOCIATED</h3>
+        <ul>
+            <li><strong>Clear cell and endometrioid</strong> most common in endometriosis</li>
+            <li>Endometrioma risk factor for malignant transformation (~0.5%)</li>
+        </ul>
+        
+        <h3>BILATERALITY</h3>
+        <ul>
+            <li><strong>High (>50%):</strong> High-grade serous 65%</li>
+            <li><strong>Moderate (10-20%):</strong> Serous cystadenoma 10%, mature cystic teratoma 10-15%, mucinous CA <20%, Brenner malignant 15%</li>
+            <li><strong>Low (<5%):</strong> Mucinous cystadenoma 2-4%</li>
+            <li><strong>Usually unilateral:</strong> Dysgerminoma, YST, embryonal, immature teratoma, AGCT, thecoma, fibroma (bilateral in dysgenesis for dysgerminoma); gonadoblastoma frequently bilateral</li>
+        </ul>
+        
+        <h3>AGE DISTRIBUTIONS</h3>
+        <ul>
+            <li><strong>Children/Young (1st-2nd decades):</strong> Immature teratoma, YST, embryonal, dysgerminoma, SLCT</li>
+            <li><strong>Reproductive (<30y):</strong> Mature cystic teratoma (most common <30y)</li>
+            <li><strong>Middle-aged (4th-5th decades):</strong> Serous cystadenoma, mucinous tumors, fibroma, AGCT, endometrioid, clear cell</li>
+            <li><strong>Postmenopausal (6th-7th decades):</strong> High-grade serous 40-70y, thecoma, mucinous CA, Brenner malignant, carcinosarcoma</li>
+        </ul>
+        
+        <h3>PROGNOSIS</h3>
+        <ul>
+            <li><strong>Excellent:</strong> Mature cystic teratoma, serous cystadenoma, mucinous cystadenoma, fibroma, thecoma</li>
+            <li><strong>Good with treatment:</strong> Dysgerminoma (chemo-sensitive), immature teratoma (low grade)</li>
+            <li><strong>Intermediate:</strong> Borderline low stage, mucinous CA 40% 5-year</li>
+            <li><strong>Poor:</strong> High-grade serous (high stage at presentation), carcinosarcoma, clear cell, YST, embryonal, choriocarcinoma, Brenner malignant 35% 5-year</li>
+        </ul>
+    </div>
+</body>
+</html>
